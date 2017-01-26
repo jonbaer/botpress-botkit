@@ -31,7 +31,8 @@ module.exports = function(bp) {
 Both Botkit and Botpress relies on the concept of middlewares and so it's pretty easy to make them both work together. For this module to work, you must already have a botpress connector installed (for example `botpress-messenger`). The way it works is that Botkit will register an incoming middleware (which should be near the end as it swallows events) and process the messages as they enter the middleware.
 
 ```
-[messenger] ---> [botpress-messenger webhook] ---> [dispatch incoming middleware] ---> [analytics, etc..] ---> [botkit]
+[messenger] ---> [botpress-messenger webhook] ---> [dispatch incoming middleware] 
+---> [analytics, etc..] ---> [botkit]
 ```
 
 ## What if I want to use Botkit's built-in connectors?
