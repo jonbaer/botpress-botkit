@@ -159,3 +159,16 @@ module.exports = function(bp) {
   bp.middlewares.load()
 }
 ```
+
+
+## Community
+
+Pull requests are welcomed! We believe that it takes all of us to create something big and impactful.
+
+There's a [Slack community](https://slack.botpress.io) where you are welcome to join us, ask any question and even help others.
+
+Get an invite and join us now! 👉[https://slack.botpress.io](https://slack.botpress.io)
+
+## License
+
+botpress-scheduler is licensed under [AGPL-3.0](/LICENSE)
